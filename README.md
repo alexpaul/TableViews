@@ -2,6 +2,15 @@
 
 Introduction to UITableViews and UITableViewDataSource. In the process we overviewed UITableViewCell, IndexPath and what it means to dequeue a cell.
 
+## Key classess and methods 
+
+* [UITableView](https://developer.apple.com/documentation/uikit/uitableview)   
+* [UITableViewDataSource](https://developer.apple.com/documentation/uikit/uitableviewdatasource) - 2 **required** protocol methods: `numberOfRows` and `cellForRow`   
+* [UITableViewCell](https://developer.apple.com/documentation/uikit/uitableviewcell)   
+* [IndexPath](https://developer.apple.com/documentation/foundation/indexpath) - key properties: `row` and `section`
+* [dequeueReusableCell()](https://developer.apple.com/documentation/uikit/uitableview/1614891-dequeuereusablecell)   
+
+
 ## Topics Covered
 
  * UITableView
