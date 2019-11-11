@@ -13,3 +13,7 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * first required method is numberOfRows()
  * second required methods is cellForRow()
  * dequeueCell - recycles a cell if in memory, if not it creates a new cell
+ 
+ ## TableView uses a dynmaic prototype subtitle cell
+ 
+ ![tableview 1](Assets/tableview-1.png)
