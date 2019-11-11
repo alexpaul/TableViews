@@ -98,7 +98,6 @@ extension ViewController: UITableViewDataSource {
     cell.textLabel?.text = country.name
     cell.detailTextLabel?.text = country.description
     
-    
 //    let arrOfArrays = [[1,2,3],
 //                       [4,5,6],
 //                       [7,8,9]]
