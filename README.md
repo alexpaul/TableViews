@@ -19,22 +19,22 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * reuse identifier e.g "countryCell"
  * dataSource object (WE NEED TO SET THE DATASOURCE OBJECT e.g tableView.dataSource = self), configured in viewDidLoad()
  * UITableViewDataSource - 2 required methods
- * first required method is numberOfRows()
- * second required methods is cellForRow()
- * dequeueCell - recycles a cell if in memory, if not it creates a new cell
+ * first required method is `numberOfRows()`
+ * second required methods is `cellForRow()`
+ * `dequeueCell` - recycles a cell if in memory, if not it creates a new cell
  * [indexPath.row] - gets object for row at current indexPath
  * UIBarButtonItem - button in navigation bar
  * extension {...} - used to extend a class, in our case to conform to the UITableViewDataSource
  
  ## Topics Covered - Table View Sections
  
- * UITabBarController 
+ * [UITabBarController](https://developer.apple.com/documentation/uikit/uitabbarcontroller)   
  * UITabItem
- * viewControllers relationship segue
- * Array(repeating: , count: )
- * numberOfSections() - UITableViewDataSource method, returns number of sections in the table view
- * titleForHeaderInSection() - UITableViewDataSource method, returns a String for each section header
- * prepare(for segue: ) - here you set the data to be passed to the destination view controller
+ * `viewControllers relationship segue` connects a tab bar controller to a view controller
+ * `Array(repeating: , count: )`
+ * `numberOfSections()` - UITableViewDataSource method, returns number of sections in the table view
+ * `titleForHeaderInSection()` - UITableViewDataSource method, returns a String for each section header
+ * `prepare(for segue: )` - here you set the data to be passed to the destination view controller
  * segue.destination 
  * segue.source 
  * tableView.indexPathForSelectedRow
