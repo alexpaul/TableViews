@@ -32,9 +32,12 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * UITabItem
  * viewControllers relationship segue
  * Array(repeating: , count: )
- * numberOfSections() 
- * titleForHeaderInSection() 
- * prepare(for segue: ) 
+ * numberOfSections() - UITableViewDataSource method, returns number of sections in the table view
+ * titleForHeaderInSection() - UITableViewDataSource method, returns a String for each section header
+ * prepare(for segue: ) - here you set the data to be passed to the destination view controller
+ * segue.destination 
+ * segue.source 
+ * tableView.indexPathForSelectedRow
  * [indexPath.section][indexPath.row]
 
  
