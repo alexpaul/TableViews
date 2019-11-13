@@ -11,7 +11,7 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
 * [dequeueReusableCell()](https://developer.apple.com/documentation/uikit/uitableview/1614891-dequeuereusablecell)   
 
 
-## Topics Covered
+## Topics Covered - Introduction
 
  * UITableView
  * cells can be static or dynamic
@@ -22,7 +22,26 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * first required method is numberOfRows()
  * second required methods is cellForRow()
  * dequeueCell - recycles a cell if in memory, if not it creates a new cell
+ * [indexPath.row]
+ * UIBarButtonItem
+ * extension {...}
+ 
+ ## Topics Covered - Table View Sections
+ 
+ * UITabBarController 
+ * UITabItem
+ * viewControllers relationship segue
+ * Array(repeating: , count: )
+ * numberOfSections() 
+ * titleForHeaderInSection() 
+ * prepare(for segue: ) 
+ * [indexPath.section][indexPath.row]
+
  
  ## TableView uses a dynamic prototype subtitle cell
  
  ![tableview 1](Assets/tableview-1.png)
+ 
+ ## TableView sections, UITabBarController
+ 
+ ![tableview sections](Assets/tableview-sections.png)  
