@@ -48,3 +48,5 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  ## TableView sections, UITabBarController
  
  ![tableview sections](Assets/tableview-sections.png)  
+ 
+ ## [Lecture Video](https://youtu.be/E7pBJMd_N6w)   
