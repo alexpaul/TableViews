@@ -22,9 +22,9 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * first required method is numberOfRows()
  * second required methods is cellForRow()
  * dequeueCell - recycles a cell if in memory, if not it creates a new cell
- * [indexPath.row]
- * UIBarButtonItem
- * extension {...}
+ * [indexPath.row] - gets object for row at current indexPath
+ * UIBarButtonItem - button in navigation bar
+ * extension {...} - used to extend a class, in our case to conform to the UITableViewDataSource
  
  ## Topics Covered - Table View Sections
  
@@ -38,7 +38,7 @@ Introduction to UITableViews and UITableViewDataSource. In the process we overvi
  * segue.destination 
  * segue.source 
  * tableView.indexPathForSelectedRow
- * [indexPath.section][indexPath.row]
+ * [indexPath.section][indexPath.row] - gets thte section and the row at the current indexPath
 
  
  ## TableView uses a dynamic prototype subtitle cell
